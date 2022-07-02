@@ -11,9 +11,9 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
-      <p class={tw`my-10 text-red-500`}>
+      <p class={tw("my-10 text-red-500")}>
         Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh.
+        file, and refresh. feature one change two.
       </p>
       <Counter start={3} />
     </div>
